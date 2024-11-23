@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+}
+
+.card{
+    width: 35vw;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 20px 20px;
+}
+
+.card-cadre{
+    width: 20%;
+}
+
+div[class="card-cadre"] > img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.card-name{
+    text-align: center;
+    color: #fcfcfc;
+}
+
+.card-location{
+    color: #c9e86b;
+    text-align: center;
+}
+
+.card-paragraph{
+    text-align: center;
+    color: #fcfcfc;
+}
+
+.card-btn{
+    background-color: #333;
+    border: none;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.card-btn:hover{
+    background-color: #c5f82a;
+    color: black;
+}
