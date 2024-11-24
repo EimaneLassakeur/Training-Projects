@@ -1,17 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
 body{
-    background-color: beige;
+    background-color: #DEAA79;
+    font-family: "League Spartan";
+    padding: 10rem;
+    /* text-align: center;  */
 }
 
-#container{
-    background-color: white;
-    border-radius: 15px;
-    margin: 5vw;
+header{
+    background-color: #FFE6A9;
+    border-radius: 20px;
+    padding: 2rem;
+
+}
+
+.img{
+    width: 30vw;
+    margin: auto;
 }
 
 img{
-    width: 50vw;
+    width: 100%;
     border-radius: 15px;
-    margin-left: 20vw;
-    margin-top: 2vh;
+    /* margin-left: 20vw;
+    margin-top: 2vh; */
     /* padding-top: 3vh; */
+}
+
+h1{
+    text-align: center;
+    color: #659287;
+}
+
+p{
+    background-color: #FFE6A9;
+    padding: 2rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: #659287;
+}
+
+section{
+    background-color: #B1C29E;
+    padding: 2rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.Preparation{
+    list-style:lower-alpha;
+}
+
+.Ingredients{
+    list-style:lower-greek;
+}
+
+.Instructions{
+    list-style: lower-roman;
+}
+
+.Nutrition{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    gap: 50%;
+    border-bottom: 2px solid black;
+    padding: 1rem 0;
 }
